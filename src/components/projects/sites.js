@@ -12,7 +12,7 @@ const sites = [
     git: 'https://github.com/Baleith/Portfolio/tree/master',
     title: 'Portfolio',
     img: portfolio,
-    desc: 'Den här sidan är utvecklad i React(Gatsby). Valt att använda mig av css-modules för att uppnå ',
+    desc: 'Den här sidan är utvecklad i React(Gatsby). Css är strukturerad med css-modules.',
     tags: ['React', 'Gatsby', 'Css-modules', 'Scss'],
   },
   {

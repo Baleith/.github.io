@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "70ca7d730e9a5c110086f178112c7d9a",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -354,13 +363,13 @@
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
-        "short_name": "starter",
+        "name": "Jonathan Nilsson",
+        "short_name": "Portfolio",
         "start_url": "/",
-        "background_color": "#663399",
-        "theme_color": "#663399",
+        "background_color": "#4ECDC4",
+        "theme_color": "#4ECDC4",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/logo.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -429,7 +438,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "79968bf27ea74e5729899468bcd5849c",
+        "contentDigest": "772d36077af4099cb65fca5560928ec6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -523,7 +532,7 @@
       "resolve": "C:/laragon/www/gatsby-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "85b8d07ba3d1bb89d003bf699a29fe09",
+      "version": "d2ab1a149f0902b33602beae42b39be4",
       "pluginOptions": {
         "plugins": []
       },
@@ -559,11 +568,15 @@
           },
           {
             "name": "gatsby-plugin-sass",
-            "version": "^2.0.1"
+            "version": "^2.0.3"
           },
           {
             "name": "node-sass",
-            "version": "^4.9.4"
+            "version": "^4.10.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
           },
           {
             "name": "react",
@@ -576,16 +589,36 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-icons",
+            "version": "^3.2.2"
           }
         ],
         "devDependencies": [
           {
             "name": "eslint",
-            "version": "^5.8.0"
+            "version": "^5.3.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.1.0"
           },
           {
             "name": "eslint-config-google",
             "version": "^0.11.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.11.0"
           },
           {
             "name": "gh-pages",
@@ -603,7 +636,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1834ec97a9142bf9c4c9925b08a02e27",
+        "contentDigest": "2f8a693c40c4ab19a10d17d3e31abc4a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -705,37 +738,19 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Jonathan Nilsson"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-11T20:57:40.247Z",
+      "buildTime": "2018-11-11T21:32:34.135Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f63e98774540f75c958577ca4a319587",
+        "contentDigest": "f35be25bbb36879651f74ee896fd65fb",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4fa59e10ab1d45c095b9d5cf6a48de2d",
-        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -743,18 +758,18 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "C:/laragon/www/gatsby-portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
+      "component": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx",
+      "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.js",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ed128721c7636b9f7bbbf48dce96e9ab",
+        "contentDigest": "868a4fc74cc01031fadf0adad15992e1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -763,18 +778,18 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/laragon/www/gatsby-portfolio/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
+      "component": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.js",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "550526c0c2720ab7288ab0486fbf6f37",
+        "contentDigest": "9944e83fee24f7f34c5d1cc58e97dda7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -783,18 +798,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "C:/laragon/www/gatsby-portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
+      "component": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx",
+      "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.js",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8c4f1bde34abd862a26b7a1725777bf8",
+        "contentDigest": "c91953c642d291fcd566a7df02f7beee",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -802,14 +817,10 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f818506fa3829ea64f37b94f04b23a90"
+    "PLUGINS_HASH": "ed910c0b4fb51707286bcefc6827770a"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": [
-        "sq--src-components-layout-js"
-      ]
-    },
+    "nodes": {},
     "connections": {}
   },
   "jsonDataPaths": {
@@ -826,27 +837,18 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js"
     },
-    "C:/laragon/www/gatsby-portfolio/src/pages/404.js": {
+    "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx": {
       "query": "",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.js"
+      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx"
     },
-    "C:/laragon/www/gatsby-portfolio/src/pages/index.js": {
+    "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx": {
       "query": "",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.js"
+      "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx"
     }
   },
-  "staticQueryComponents": {
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
-    }
-  }
+  "staticQueryComponents": {}
 }
