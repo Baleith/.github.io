@@ -41,9 +41,7 @@ export default class IndexPage extends Component {
     return (
       <Layout>
         <About aboutActive={aboutActive} onClick={this.handleClickAbout} />
-        <MediaQuery query="(min-width: 900px)">
-          <Home aboutActive={aboutActive} contactActive={contactActive} onClick={this.handleClickHome} />
-        </MediaQuery>
+        <Home aboutActive={aboutActive} contactActive={contactActive} onClick={this.handleClickHome} />
         <Contact contactActive={contactActive} onClick={this.handleClickContact} />
         <Landing contactActive={contactActive} aboutActive={aboutActive} />
         <Bottom />
@@ -54,3 +52,5 @@ export default class IndexPage extends Component {
   }
 }
 /* onClick={() => this.handleClick('moveToRight')} */
+{/* <MediaQuery query="(min-width: 900px)">
+</MediaQuery> */}

@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70ca7d730e9a5c110086f178112c7d9a",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -744,15 +735,35 @@
       "siteMetadata": {
         "title": "Jonathan Nilsson"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2018-11-12T18:17:32.254Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-11-12T19:30:17.229Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1edb35cf4d1467663e799444699b9181",
+        "contentDigest": "2933e398c37334cac7e1f801476545d7",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4fa59e10ab1d45c095b9d5cf6a48de2d",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -851,9 +862,9 @@
       "query": "",
       "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx"
     },
-    "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js": {
+    "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js"
+      "componentPath": "C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
