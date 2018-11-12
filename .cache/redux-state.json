@@ -593,6 +593,10 @@
           {
             "name": "react-icons",
             "version": "^3.2.2"
+          },
+          {
+            "name": "react-responsive",
+            "version": "^6.0.1"
           }
         ],
         "devDependencies": [
@@ -742,14 +746,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-11-11T21:32:34.135Z",
+      "buildTime": "2018-11-11T23:46:51.134Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f35be25bbb36879651f74ee896fd65fb",
+        "contentDigest": "9c9a405bc64245c20f48e26ca3e50ae4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -817,10 +819,14 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ed910c0b4fb51707286bcefc6827770a"
+    "PLUGINS_HASH": "9205f3aa9ed52cd4560180bffeaa5547"
   },
   "componentDataDependencies": {
-    "nodes": {},
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js"
+      ]
+    },
     "connections": {}
   },
   "jsonDataPaths": {
@@ -850,5 +856,14 @@
       "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx"
     }
   },
-  "staticQueryComponents": {}
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    }
+  }
 }

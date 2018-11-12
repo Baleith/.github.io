@@ -16,10 +16,13 @@ export const About = ({ isOpen }) => (
         <p className={styles.italic}>Jag letar efter en <span className={styles.bold}>kul</span> och <span className={styles.bold}>lärorik</span> arbetsplats.</p>
       </div>
       <p className={styles.body}>
-        Jag är en självlärd utvecklare som tycker det är kul att koda både backend och frontend. 
+        Jag är en motiverad frontend och backend utvecklare som strävar efter att kunna röra mig obehindrat över hela stacken.
       </p>
       <p className={styles.body}>
-        Mitt mål är att jag ska kunna röra mig självsäkert över hela stacken.
+       Bor för tillfället ett par mil utanför Ronneby men jag söker jobb i hela södra Sverige.
+      </p>
+      <p className={styles.body}>
+        Om du läser detta skicka gärna ett meddelande och säg hej!
       </p>
     </div>
   </div>

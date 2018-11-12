@@ -192,7 +192,20 @@ to {
         transform: rotate(611deg);
     }
 }*/
-
+.inProgress {
+    display: none;
+    margin-top: 30%;
+    color: red;
+    font-size: 2rem;
+}
+@media (max-width: 900px) {
+    .container {
+        overflow: hidden;
+    }
+    .inProgress {
+        display: inherit;
+    }
+}
 @media (max-width: 400px) {
     .span1::after, .span2::after, .span3::after, .span4::after, .span5::after {
         height: 210px;
@@ -204,14 +217,4 @@ to {
     }
 }
 
-.inProgress {
-    display: none;
-    margin-top: 30%;
-    color: red;
-    font-size: 2rem;
-}
-@media (max-width: 900px) {
-    .inProgress {
-        display: inherit;
-    }
-}
+

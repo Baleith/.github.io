@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import MediaQuery from 'react-responsive';
 import { Contact } from '../components/nav/contact';
 import { Home } from '../components/nav/home';
 import { Bottom } from '../components/nav/bottom';
@@ -41,7 +41,9 @@ export default class IndexPage extends Component {
     return (
       <Layout>
         <About aboutActive={aboutActive} onClick={this.handleClickAbout} />
-        <Home aboutActive={aboutActive} contactActive={contactActive} onClick={this.handleClickHome} />
+        <MediaQuery query="(min-width: 900px)">
+          <Home aboutActive={aboutActive} contactActive={contactActive} onClick={this.handleClickHome} />
+        </MediaQuery>
         <Contact contactActive={contactActive} onClick={this.handleClickContact} />
         <Landing contactActive={contactActive} aboutActive={aboutActive} />
         <Bottom />

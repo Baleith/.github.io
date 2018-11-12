@@ -77,3 +77,24 @@ p, span, a {
     font-size: 1.5rem;
   }
 }
+@media (max-width: 700px) {
+  #app {
+    grid-template-rows: 10hvh 90vh auto auto;
+    grid-template-columns: 100vw;
+  }
+  #aside-left, #bottom, #aside-right {
+    display: none;
+  }
+  #top {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+  #landing {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+  #projects {
+    grid-area: 4 / 1 / span 1 / span 1;
+  }
+  h2, h3, h4 {
+    font-size: 1.5rem;
+  }
+}
