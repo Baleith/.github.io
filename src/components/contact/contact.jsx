@@ -17,10 +17,12 @@ export const Contact = ({ isOpen }) => {
           {'Kontakta mig'}
         </h1>
       </div>
+
       <div className={styles.bodyContainer}>
         <p className={styles.body}>Vad trevligt att du vill prata med mig.</p>
         <p className={styles.body}>Det gör du enklast över mail,</p>
         <p className={styles.body}>eller på LinkedIn.</p>
+
         <div className={styles.linksContainer}>
           <div
             className={styles.mailContainer}
@@ -48,7 +50,7 @@ export const Contact = ({ isOpen }) => {
       </div>
     </div>
   );
-}
+};
 
 Contact.propTypes = {
   isOpen: bool.isRequired,

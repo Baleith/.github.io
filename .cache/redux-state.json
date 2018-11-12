@@ -541,13 +541,13 @@
       "ssrAPIs": [],
       "pluginFilepath": "C:/laragon/www/gatsby-portfolio",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "name": "jonathan-nilsson-portfolio",
+        "description": "Portfolio",
         "version": "1.0.0",
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Jonathan Nilsson",
         "license": "MIT",
         "dependencies": [
           {
@@ -746,12 +746,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-11-11T23:46:51.134Z",
+      "buildTime": "2018-11-12T18:17:32.254Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9c9a405bc64245c20f48e26ca3e50ae4",
+        "contentDigest": "1edb35cf4d1467663e799444699b9181",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -819,7 +819,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9205f3aa9ed52cd4560180bffeaa5547"
+    "PLUGINS_HASH": "c87dbe57d705458a5f7327324b31618c"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -843,10 +843,6 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js"
-    },
     "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx": {
       "query": "",
       "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx"
@@ -854,6 +850,10 @@
     "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx": {
       "query": "",
       "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx"
+    },
+    "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {

@@ -7,7 +7,7 @@ export const About = ({ isOpen }) => (
   <div className={`${styles.container} ${isOpen ? styles.isOpening : styles.isClosing}`}>
     <div className={styles.titleContainer}>
       <h1 className={styles.title}>
-        {'Hej,'}
+        {'Hej'}
       </h1>
     </div>
     <div className={styles.bodyContainer}>
@@ -16,7 +16,7 @@ export const About = ({ isOpen }) => (
         <p className={styles.italic}>Jag letar efter en <span className={styles.bold}>kul</span> och <span className={styles.bold}>lärorik</span> arbetsplats.</p>
       </div>
       <p className={styles.body}>
-        Jag är en motiverad frontend och backend utvecklare som strävar efter att kunna röra mig obehindrat över hela stacken.
+        Jag är en motiverad front och backend utvecklare som strävar efter att kunna röra mig obehindrat över hela stacken.
       </p>
       <p className={styles.body}>
        Bor för tillfället ett par mil utanför Ronneby men jag söker jobb i hela södra Sverige.

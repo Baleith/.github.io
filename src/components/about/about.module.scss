@@ -3,7 +3,7 @@
     width: 100%;
     transition: all 0.8s linear;
     box-sizing: border-box;
-    padding: 4rem 15rem; 
+    text-align: center;
 }
 .isClosing {
     opacity: 0;
@@ -20,7 +20,7 @@
         font-size: 4rem;
         margin: 0;
         position: relative;
-        margin: 5rem 0 2rem 0;
+        margin: 10rem 0 2rem 0;
     }
 }
 .title {
@@ -42,10 +42,9 @@
         letter-spacing: 0.25rem;
     }
     .openerText {
-        margin-bottom: 2.5rem;
+        margin-bottom: 3rem;
     }
     .body {
-        width: 35em;
         line-height: 2rem;
     }
 }
@@ -55,44 +54,57 @@
 @media (max-width: 1100px) {
     .container {
         background-color: #F7F7F7;
-        padding: 6rem 10rem; 
+        padding: 0 4rem; 
     }
     .titleContainer {
         .title {
-           margin: 0 0 3rem 0;
+            margin: 10rem 0 0 0;
         }
     }
 }
-@media (max-width: 900px) {
-    .container {
-        padding: 6rem 6rem; 
-    }
-}
+
 @media (max-width: 720px) {
     .container {
-        padding: 6rem 6rem; 
     }
     .titleContainer {
         .title {
            font-size: 3rem;
-           margin: 0 0 3rem 0;
+           margin: 8rem 0 2rem 0;
         }
     }
 }
 @media (max-width: 600px) {
     .container {
-        background-color: #F7F7F7;
-        padding: 1rem;
+        padding: 0 1rem;
     }
     .titleContainer {
         .title {
            font-size: 2rem;
-           margin: 0 0 1rem 0;
+           margin: 7rem 0 0 0;
+        }
+    }
+    .italic {
+            font-size: 1.25rem;
+        }
+        .bold {
+            font-size: 1.5rem;
+        }
+    
+}
+@media (max-width: 475px) {
+    .titleContainer {
+        .title {
+           margin: 2rem 0 0 0;
         }
     }
     .bodyContainer {
-        .h2 {
-            margin-bottom: .0rem;
+        .italic {
+            font-size: 1rem;
+            font-weight: 900;
+        }
+        .bold {
+            font-size: 1rem;
+            font-weight: 900;
         }
     }
 }
