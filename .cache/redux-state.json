@@ -748,12 +748,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-14T15:52:34.341Z",
+      "buildTime": "2018-11-14T23:11:48.602Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a3e99a8d295d677a8935aebe721efc46",
+        "contentDigest": "30ba5047cebff3d111afebac537c37c2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -845,10 +845,6 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js"
-    },
     "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx": {
       "query": "",
       "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/404.jsx"
@@ -856,6 +852,10 @@
     "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx": {
       "query": "",
       "componentPath": "C:/laragon/www/gatsby-portfolio/src/pages/index.jsx"
+    },
+    "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/laragon/www/gatsby-portfolio/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {

@@ -26,7 +26,7 @@ export class HomeMobile extends Component {
     const { isOpen } = this.state;
     const { handleClickContact, handleClickAbout } = this.props;
     return (
-      <nav id="top" className={styles.nav}>
+      <nav id="topMobile" className={styles.nav}>
         {
           !isOpen ? (
             <div className={styles.buttonContainer}>
