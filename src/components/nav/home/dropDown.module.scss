@@ -1,0 +1,65 @@
+.menuToggleContainer {
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  text-align: right;
+  padding-right: calc(2rem - 1em);
+  .close {
+    font-size: 3rem;
+  }
+}
+.transparentBackground {
+  width: 100%;
+  z-index: 90;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  background-color: #000000;
+  transition: opacity .5s;
+}
+.isOpenBackground {
+  opacity: .4;
+}
+@keyframes opacity {
+  0% {
+      opacity: 0;
+  }
+  100% {
+    opacity: .4;
+  }
+}
+.dropDown {
+  max-width: 325px;
+  width: calc(100% - 75px);
+  background-color: #ffffff;
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  transition: all .5s;
+  transform: translate(325px);
+  /* animation: translate 0.5s ease-out forwards; */
+  ul {
+    text-align: right;
+    list-style: none;
+    li {
+      margin: 2rem 2rem 2rem 0;
+    }
+  }
+}
+.isOpen {
+  transform: translate(0);
+}
+/* @keyframes translate {
+  0% {
+    transform: translate(325px);
+  }
+  100% {
+    transform: translate(0);
+  }
+} */

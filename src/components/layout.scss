@@ -64,22 +64,30 @@ p, span, a {
   font-family: 'Raleway', sans-serif;
   line-height: 1.75rem
 }
-
-@media (max-width: 400px) {
+/* @media (max-width: 1300px) {
   #app {
-    grid-template-rows: 6vh 88vh 6vh auto auto;
-    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 10vh 85vh 5vh auto;
+    grid-template-columns: 100vw;
+  }
+  #aside-left, #aside-right {
+    display: none;
+  }
+  #top {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+  #landing {
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+  #bottom {
+    grid-area: 3 / 1 / span 1 / span 1;
   }
   #projects {
-    grid-area: 4 / 1 / span 1 / span 3;
+    grid-area: 4 / 1 / span 1 / span 1;
   }
-  h2, h3, h4 {
-    font-size: 1.5rem;
-  }
-}
+} */
 @media (max-width: 700px) {
   #app {
-    grid-template-rows: 10hvh 90vh auto auto;
+    grid-template-rows: 10vh 90vh auto auto;
     grid-template-columns: 100vw;
   }
   #aside-left, #bottom, #aside-right {
@@ -98,3 +106,15 @@ p, span, a {
     font-size: 1.5rem;
   }
 }
+/* @media (max-width: 400px) {
+  #app {
+    grid-template-rows: 6vh 88vh 6vh auto auto;
+    grid-template-columns: 10vw 80vw 10vw;
+  }
+  #projects {
+    grid-area: 4 / 1 / span 1 / span 3;
+  }
+  h2, h3, h4 {
+    font-size: 1.5rem;
+  }
+} */

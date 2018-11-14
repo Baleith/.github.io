@@ -16,7 +16,6 @@ export const WelcomeText = ({ aboutActive, contactActive }) => {
           {'HEJ.'}
         </h1>
       </div>
-      <p className={styles.inProgress}>Responsiv design - in progress!</p>
     </div>
   );
 };

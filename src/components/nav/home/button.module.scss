@@ -1,0 +1,12 @@
+.commonButton {
+  background-color: #ffffff;
+  border: 0;
+  padding: 0;
+  &:focus {
+    outline: 2px solid #333333;
+  }
+}
+.button {
+  composes: commonButton;
+  composes: navText from '../../../styles/_util.scss';
+}

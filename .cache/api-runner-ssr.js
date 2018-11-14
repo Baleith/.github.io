@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('C:/laragon/www/gatsby-portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Jonathan Nilsson","short_name":"Portfolio","start_url":"/","background_color":"#4ECDC4","theme_color":"#4ECDC4","display":"minimal-ui","icon":"src/images/logo.png"},
+      options: {"plugins":[],"name":"Jonathan Nilsson","short_name":"Portfolio","start_url":"/","background_color":"#4ECDC4","theme_color":"#4ECDC4","display":"minimal-ui","icon":"src/images/icon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

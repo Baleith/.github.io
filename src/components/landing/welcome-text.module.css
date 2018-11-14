@@ -6,7 +6,10 @@
     margin: auto;
     position: relative;
 }
-
+/* .wrapper {
+    align-self: flex-start;
+    z-index: 5;
+} */
 .h1 {
     font-size: 6rem;
     color: transparent;
@@ -117,10 +120,7 @@ to {
     animation: rotation10 8s linear infinite alternate;
 }
 
-.wrapper {
-    align-self: flex-start;
-    z-index: 5;
-}
+
 
 /* @media (max-width: 400px) {
     .span1 {
@@ -192,18 +192,9 @@ to {
         transform: rotate(611deg);
     }
 }*/
-.inProgress {
-    display: none;
-    margin-top: 30%;
-    color: red;
-    font-size: 2rem;
-}
 @media (max-width: 900px) {
     .container {
-        overflow: hidden;
-    }
-    .inProgress {
-        display: inherit;
+        /* overflow: hidden; */
     }
 }
 @media (max-width: 400px) {
