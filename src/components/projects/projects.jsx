@@ -11,7 +11,7 @@ export const Projects = () => {
     <div id="projects" className={styles.container}>
       <h1 className={styles.h1}>
         <span className={styles.span} />
-        {'Projects'}
+        {'Projekt'}
       </h1>
 
       {projects}

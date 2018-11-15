@@ -13,7 +13,7 @@ export const WelcomeText = ({ aboutActive, contactActive }) => {
           <span className={styles.span3} />
           <span className={styles.span4} />
           <span className={styles.span5} />
-          {'HEJ.'}
+          {'UNDER CONSTRUCTION'}
         </h1>
       </div>
     </div>

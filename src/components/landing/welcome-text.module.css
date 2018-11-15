@@ -11,14 +11,14 @@
     z-index: 5;
 } */
 .h1 {
-    font-size: 6rem;
-    color: transparent;
+    font-size: 1rem;
+    color: red;
 }
 .isOpening {
-    animation: isOpening 0.8s linear forwards;
+    animation: isOpening 0.5s linear forwards;
 }
 .isClosing {
-    animation: isClosing 0.8s linear forwards;
+    animation: isClosing 0.5s linear forwards;
 }
 @-webkit-keyframes isClosing {
     from {
@@ -192,11 +192,6 @@ to {
         transform: rotate(611deg);
     }
 }*/
-@media (max-width: 900px) {
-    .container {
-        /* overflow: hidden; */
-    }
-}
 @media (max-width: 400px) {
     .span1::after, .span2::after, .span3::after, .span4::after, .span5::after {
         height: 210px;
